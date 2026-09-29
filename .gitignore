@@ -53,3 +53,16 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Arduino / build output
+build/
+*.hex
+*.elf
+*.bin
+*.o
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
